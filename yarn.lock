@@ -54,13 +54,13 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+ansi-regex@2, ansi-regex@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
+
 ansi-regex@^0.2.0, ansi-regex@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-0.2.1.tgz#0d8e946967a3d8143f93e24e298525fc1b2235f9"
-
-ansi-regex@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
 
 ansi-styles@^1.1.0:
   version "1.1.0"
@@ -73,6 +73,10 @@ ansi-styles@^2.2.1:
 archy@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/archy/-/archy-1.0.0.tgz#f9c8c13757cc1dd7bc379ac77b2c62a5c2868c40"
+
+argh@~0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/argh/-/argh-0.1.4.tgz#3eb4d612973fc6b6dc6ef338f56f759f2ac5c3a6"
 
 arr-diff@^2.0.0:
   version "2.0.0"
@@ -115,6 +119,10 @@ astw@^2.0.0:
 async@~0.2.6:
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
+
+async@~1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
 balanced-match@^0.4.1:
   version "0.4.2"
@@ -344,6 +352,17 @@ chalk@^1.0.0, chalk@^1.1.1:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+cli-color@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cli-color/-/cli-color-1.1.0.tgz#de188cdc4929d83b67aea04110fbed40fdbf6775"
+  dependencies:
+    ansi-regex "2"
+    d "^0.1.1"
+    es5-ext "^0.10.8"
+    es6-iterator "2"
+    memoizee "^0.3.9"
+    timers-ext "0.1"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
@@ -383,6 +402,38 @@ cloneable-readable@^1.0.0:
 coffee-script@^1.10.0:
   version "1.12.5"
   resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.12.5.tgz#809f4585419112bbfe46a073ad7543af18c27346"
+
+color-convert@^0.5.0:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-0.5.3.tgz#bdb6c69ce660fadffe0b0007cc447e1b9f7282bd"
+
+color-name@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.2.tgz#5c8ab72b64bd2215d617ae9559ebb148475cf98d"
+
+color-string@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-0.3.0.tgz#27d46fb67025c5c2fa25993bfbf579e47841b991"
+  dependencies:
+    color-name "^1.0.0"
+
+color@0.8.x:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/color/-/color-0.8.0.tgz#890c07c3fd4e649537638911cf691e5458b6fca5"
+  dependencies:
+    color-convert "^0.5.0"
+    color-string "^0.3.0"
+
+colornames@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/colornames/-/colornames-0.0.2.tgz#d811fd6c84f59029499a8ac4436202935b92be31"
+
+colorspace@1.0.x:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/colorspace/-/colorspace-1.0.1.tgz#c99c796ed31128b9876a52e1ee5ee03a4a719749"
+  dependencies:
+    color "0.8.x"
+    text-hex "0.0.x"
 
 combine-source-map@~0.3.0:
   version "0.3.0"
@@ -546,6 +597,18 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+d@1:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
+  dependencies:
+    es5-ext "^0.10.9"
+
+d@^0.1.1, d@~0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/d/-/d-0.1.1.tgz#da184c535d18d8ee7ba2aa229b914009fae11309"
+  dependencies:
+    es5-ext "~0.10.2"
+
 dateformat@^1.0.7-1.2.3:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-1.0.12.tgz#9f124b67594c937ff706932e4a642cca8dbbfee9"
@@ -632,9 +695,45 @@ detective@~3.1.0:
     escodegen "~1.1.0"
     esprima-fb "3001.1.0-dev-harmony-fb"
 
+diagnostics@~1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/diagnostics/-/diagnostics-1.0.1.tgz#accdb080c82bb25d0dd73430a9e6a87fbb431541"
+  dependencies:
+    colorspace "1.0.x"
+    enabled "1.0.x"
+    kuler "0.0.x"
+
+dom-serializer@0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
+  dependencies:
+    domelementtype "~1.1.1"
+    entities "~1.1.1"
+
 domain-browser@~1.1.0:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
+
+domelementtype@1, domelementtype@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.3.0.tgz#b17aed82e8ab59e52dd9c19b1756e0fc187204c2"
+
+domelementtype@~1.1.1:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
+
+domhandler@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.3.0.tgz#2de59a0822d5027fabff6f032c2b25a2a8abe738"
+  dependencies:
+    domelementtype "1"
+
+domutils@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
+  dependencies:
+    dom-serializer "0"
+    domelementtype "1"
 
 duplexer2@0.0.2:
   version "0.0.2"
@@ -659,6 +758,16 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
+emits@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/emits/-/emits-3.0.0.tgz#32752bba95e1707b219562384ab9bb8b1fd62f70"
+
+enabled@1.0.x:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/enabled/-/enabled-1.0.2.tgz#965f6513d2c2d1c5f4652b64a2e3396467fc2f93"
+  dependencies:
+    env-variable "0.0.x"
+
 end-of-stream@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.0.0.tgz#d4596e702734a93e40e9af864319eabd99ff2f0e"
@@ -670,6 +779,14 @@ end-of-stream@~0.1.5:
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-0.1.5.tgz#8e177206c3c80837d85632e8b9359dfe8b2f6eaf"
   dependencies:
     once "~1.3.0"
+
+entities@^1.1.1, entities@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
+
+env-variable@0.0.x:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/env-variable/-/env-variable-0.0.3.tgz#b86c1641be5610267d506f18071ea76d707097cb"
 
 error-ex@^1.2.0:
   version "1.3.1"
@@ -683,6 +800,52 @@ errorhandler@~1.4.2:
   dependencies:
     accepts "~1.3.0"
     escape-html "~1.0.3"
+
+es5-ext@^0.10.14, es5-ext@^0.10.8, es5-ext@^0.10.9, es5-ext@~0.10.11, es5-ext@~0.10.14, es5-ext@~0.10.2, es5-ext@~0.10.5, es5-ext@~0.10.6:
+  version "0.10.15"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.15.tgz#c330a5934c1ee21284a7c081a86e5fd937c91ea6"
+  dependencies:
+    es6-iterator "2"
+    es6-symbol "~3.1"
+
+es6-iterator@2:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/es6-iterator/-/es6-iterator-2.0.1.tgz#8e319c9f0453bf575d374940a655920e59ca5512"
+  dependencies:
+    d "1"
+    es5-ext "^0.10.14"
+    es6-symbol "^3.1"
+
+es6-iterator@~0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/es6-iterator/-/es6-iterator-0.1.3.tgz#d6f58b8c4fc413c249b4baa19768f8e4d7c8944e"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.5"
+    es6-symbol "~2.0.1"
+
+es6-symbol@^3.1, es6-symbol@~3.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/es6-symbol/-/es6-symbol-3.1.1.tgz#bf00ef4fdab6ba1b46ecb7b629b4c7ed5715cc77"
+  dependencies:
+    d "1"
+    es5-ext "~0.10.14"
+
+es6-symbol@~2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/es6-symbol/-/es6-symbol-2.0.1.tgz#761b5c67cfd4f1d18afb234f691d678682cb3bf3"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.5"
+
+es6-weak-map@~0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/es6-weak-map/-/es6-weak-map-0.1.4.tgz#706cef9e99aa236ba7766c239c8b9e286ea7d228"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.6"
+    es6-iterator "~0.1.3"
+    es6-symbol "~2.0.1"
 
 escape-html@1.0.2:
   version "1.0.2"
@@ -743,6 +906,13 @@ esutils@~1.0.0:
 etag@~1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.7.0.tgz#03d30b5f67dd6e632d2945d30d6652731a34d5d8"
+
+event-emitter@~0.3.4:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/event-emitter/-/event-emitter-0.3.5.tgz#df8c69eef1647923c7157b9ce83840610b02cc39"
+  dependencies:
+    d "1"
+    es5-ext "~0.10.14"
 
 event-stream@^3.3.2:
   version "3.3.4"
@@ -1078,6 +1248,14 @@ gulp-match@^1.0.3:
   dependencies:
     minimatch "^3.0.3"
 
+gulp-minify-html@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/gulp-minify-html/-/gulp-minify-html-1.0.6.tgz#f947f3f139475bbe1b08fffe714c4729f1ff070a"
+  dependencies:
+    gulp-util "^3.0.3"
+    minimize "^1.5.0"
+    through2 "^0.6.1"
+
 gulp-uglify@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/gulp-uglify/-/gulp-uglify-2.1.2.tgz#6db85b1d0ee63d18058592b658649d65c2ec4541"
@@ -1091,7 +1269,7 @@ gulp-uglify@^2.1.2:
     uglify-save-license "^0.4.1"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-util@^3.0.0, gulp-util@^3.0.2, gulp-util@^3.0.4, gulp-util@^3.0.6, gulp-util@^3.0.8:
+gulp-util@^3.0.0, gulp-util@^3.0.2, gulp-util@^3.0.3, gulp-util@^3.0.4, gulp-util@^3.0.6, gulp-util@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-3.0.8.tgz#0054e1e744502e27c04c187c3ecc505dd54bbb4f"
   dependencies:
@@ -1178,6 +1356,17 @@ homedir-polyfill@^1.0.0:
 hosted-git-info@^2.1.4:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.4.1.tgz#4b0445e41c004a8bd1337773a4ff790ca40318c8"
+
+htmlparser2@~3.9.0:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.9.2.tgz#1bdf87acca0f3f9e53fa4fcceb0f4b4cbb00b338"
+  dependencies:
+    domelementtype "^1.3.0"
+    domhandler "^2.3.0"
+    domutils "^1.5.1"
+    entities "^1.1.1"
+    inherits "^2.0.1"
+    readable-stream "^2.0.2"
 
 http-browserify@~1.3.1:
   version "1.3.2"
@@ -1383,6 +1572,12 @@ kind-of@^3.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.1.0.tgz#475d698a5e49ff5e53d14e3e732429dc8bf4cf47"
   dependencies:
     is-buffer "^1.0.2"
+
+kuler@0.0.x:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/kuler/-/kuler-0.0.0.tgz#b66bb46b934e550f59d818848e0abba4f7f5553c"
+  dependencies:
+    colornames "0.0.2"
 
 lazy-cache@^1.0.3:
   version "1.0.4"
@@ -1645,6 +1840,12 @@ lru-cache@2:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
 
+lru-queue@0.1:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/lru-queue/-/lru-queue-0.1.0.tgz#2738bd9f0d3cf4f84490c5736c48699ac632cda3"
+  dependencies:
+    es5-ext "~0.10.2"
+
 make-error-cause@^1.1.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/make-error-cause/-/make-error-cause-1.2.2.tgz#df0388fcd0b37816dff0a5fb8108939777dcbc9d"
@@ -1670,6 +1871,18 @@ map-stream@~0.1.0:
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
+
+memoizee@^0.3.9:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/memoizee/-/memoizee-0.3.10.tgz#4eca0d8aed39ec9d017f4c5c2f2f6432f42e5c8f"
+  dependencies:
+    d "~0.1.1"
+    es5-ext "~0.10.11"
+    es6-weak-map "~0.1.4"
+    event-emitter "~0.3.4"
+    lru-queue "0.1"
+    next-tick "~0.2.2"
+    timers-ext "0.1"
 
 meow@^3.3.0:
   version "3.7.0"
@@ -1783,6 +1996,18 @@ minimist@~0.0.7, minimist@~0.0.9:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
+minimize@^1.5.0:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/minimize/-/minimize-1.8.1.tgz#a3674ade93f28a75ffa23b8e0f365cdc23d69d8b"
+  dependencies:
+    argh "~0.1.4"
+    async "~1.5.2"
+    cli-color "~1.1.0"
+    diagnostics "~1.0.1"
+    emits "~3.0.0"
+    htmlparser2 "~3.9.0"
+    node-uuid "~1.4.7"
+
 mkdirp@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
@@ -1852,6 +2077,18 @@ negotiator@0.5.3:
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
+
+next-tick@1:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+next-tick@~0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-0.2.2.tgz#75da4a927ee5887e39065880065b7336413b310d"
+
+node-uuid@~1.4.7:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.3.6"
@@ -2146,7 +2383,7 @@ readable-stream@^1.0.27-1, readable-stream@~1.1.10, readable-stream@~1.1.8, read
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.1.5:
+readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.1.5:
   version "2.2.9"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.9.tgz#cf78ec6f4a6d1eb43d26488cac97f042e74b7fc8"
   dependencies:
@@ -2488,6 +2725,10 @@ ternary-stream@^2.0.1:
     merge-stream "^1.0.0"
     through2 "^2.0.1"
 
+text-hex@0.0.x:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/text-hex/-/text-hex-0.0.0.tgz#578fbc85a6a92636e42dd17b41d0218cce9eb2b3"
+
 through2@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/through2/-/through2-0.5.1.tgz#dfdd012eb9c700e2323fd334f38ac622ab372da7"
@@ -2539,6 +2780,13 @@ timers-browserify@~1.0.1:
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-1.0.3.tgz#ffba70c9c12eed916fd67318e629ac6f32295551"
   dependencies:
     process "~0.5.1"
+
+timers-ext@0.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/timers-ext/-/timers-ext-0.1.2.tgz#61cc47a76c1abd3195f14527f978d58ae94c5204"
+  dependencies:
+    es5-ext "~0.10.14"
+    next-tick "1"
 
 tiny-lr@^0.2.1:
   version "0.2.1"
