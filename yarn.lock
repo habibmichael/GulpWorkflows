@@ -722,6 +722,14 @@ gulp-coffee@^2.3.4:
     through2 "^2.0.1"
     vinyl-sourcemaps-apply "^0.2.1"
 
+gulp-compass@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-compass/-/gulp-compass-2.1.0.tgz#1fef21ed547fc8685e754fc31954c4fc6dd2bcb3"
+  dependencies:
+    gulp-util "^3.0.4"
+    through2 "^0.6.5"
+    which "^1.1.1"
+
 gulp-concat@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/gulp-concat/-/gulp-concat-2.6.1.tgz#633d16c95d88504628ad02665663cee5a4793353"
@@ -730,7 +738,7 @@ gulp-concat@^2.6.1:
     through2 "^2.0.0"
     vinyl "^2.0.0"
 
-gulp-util@^3.0.0, gulp-util@^3.0.2, gulp-util@^3.0.8:
+gulp-util@^3.0.0, gulp-util@^3.0.2, gulp-util@^3.0.4, gulp-util@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-3.0.8.tgz#0054e1e744502e27c04c187c3ecc505dd54bbb4f"
   dependencies:
@@ -1865,7 +1873,7 @@ through2@^0.5.0:
     readable-stream "~1.0.17"
     xtend "~3.0.0"
 
-through2@^0.6.1:
+through2@^0.6.1, through2@^0.6.5:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-0.6.5.tgz#41ab9c67b29d57209071410e1d7a7a968cd3ad48"
   dependencies:
@@ -2051,7 +2059,7 @@ vm-browserify@~0.0.1:
   dependencies:
     indexof "0.0.1"
 
-which@^1.2.12:
+which@^1.1.1, which@^1.2.12:
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/which/-/which-1.2.14.tgz#9a87c4378f03e827cecaf1acdf56c736c01c14e5"
   dependencies:
